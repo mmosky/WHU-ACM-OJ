@@ -1,4 +1,5 @@
-[TOC]
+- [5 Holding Animals (3 pts)](#5 Holding Animals (3 pts))
+- [6 Language of Animals (3 pts)](#6 Language of Animals (3 pts))
 
 # WHU-ACM-OJ 题目描述
 
