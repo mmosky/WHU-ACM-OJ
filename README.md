@@ -1,21 +1,37 @@
-- [5 Holding Animals (3 pts)](#5 Holding Animals (3 pts))
-- [6 Language of Animals (3 pts)](#6 Language of Animals (3 pts))
+Table of Contents
+=================
 
-# WHU-ACM-OJ 题目描述
+- [WHU-ACM-OJ 题意](#whu-acm-oj-题意)
+  - [编写规范](#编写规范)
+  - [5 Holding Animals (3pts)](#5-holding-animals-3pts)
+  - [6 Language of Animals (3pts)](#6-language-of-animals-3pts)
+
+# WHU-ACM-OJ 题意
 
 ## 编写规范
 
 1. 保持题号升序, 在对应位置插入
-2. 题目名称使用 h2 标题 (两个 #), 格式为 ("%d %s (%d pts)", 题号, 题名, 分数)
-3. 题目内部不要使用任何标题
-4. 写明题意, 输入输出格式. 能让人在不看网站上漫长的英文题面的情况下, 直接开始 coding
+2. 题目名称使用 h2 标题 (两个 #), 格式为 `("## %d %s (%dpts)", 题号, 题名, 分数)`
+3. 记得更新目录 (Table of Contents), 目录格式参考[这里](https://github.com/ekalinin/github-markdown-toc.go#remote-files)或下文说明
+4. 写明输入输出格式. 能让人在不看网站上漫长的英文题面的情况下, 直接开始 coding
 5. 标注数据范围, 除非原题就没写
+6. 如果题目难理解, 可以适当增加对样例的解释
 
-*1, 2, 3 是为了便于查看的时候直接在目录中定位到题目*
+目录格式: `("[%s](#%s)", 标题, 链接)`
 
-*可以适当增加对样例的解释*
+其中标题是展示出来的内容, 应当和题目名称的 h2 标题保持一致.
 
-## 5 Holding Animals (3 pts)
+链接是通过标题转换的, 大概规则是:
+
+- 将空格替换为 `-`
+- 删除 `(`, `)`, `?` 等符号
+- 全部替换为小写字母
+
+比如 `5 Holding Animals (3pts)` 对应的链接是 `5-holding-animals-3pts`
+
+注意缩进, h2 标题的目录需要两个空格.
+
+## 5 Holding Animals (3pts)
 
 01 背包问题. 多组输入, 每组:
 
@@ -33,7 +49,7 @@ W[i], V[i] <= 10,000
 
 M <= 100,000
 
-## 6 Language of Animals (3 pts)
+## 6 Language of Animals (3pts)
 
 问两个点之间的最短路. 只有一组输入.
 
