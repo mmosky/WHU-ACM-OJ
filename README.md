@@ -1,6 +1,3 @@
-Table of Contents
-=================
-
 - [WHU-ACM-OJ 题意](#whu-acm-oj-题意)
   - [编写规范](#编写规范)
   - [5 Holding Animals (3pts)](#5-holding-animals-3pts)
@@ -8,6 +5,10 @@ Table of Contents
   - [7 Feeding Animals I (1pts)](#7-feeding-animals-i-1pts)
   - [8 Feeding Animals II (3pts)](#8-feeding-animals-ii-3pts)
   - [10 Alternate Sum (3pts)](#10-alternate-sum-3pts)
+  - [16 Cherry Blossom (1pts)](#16-cherry-blossom-1pts)
+  - [20 Adjacent Difference (1pts)](#20-adjacent-difference-1pts)
+  - [64 What Is Left (1pts)](#64-what-is-left-1pts)
+  - [98 Dongfangxu&zap](#98-dongfangxuzap)
 
 # WHU-ACM-OJ 题意
 
@@ -140,3 +141,63 @@ K <= 20
 当 N 为 0 时输入停止. (而不是 EOF)
 
 对于每组输入, 输出一行, 一个整数.
+
+1 <= N <= 1000
+
+S 内的数字的绝对值不超过 `1 << 16`
+
+## 16 Cherry Blossom (1pts)
+
+给定一堆点, 判断这些点是否上下对称的.
+
+多组输入, 每组:
+
+第一行一个整数 N, 表示点的数量.
+
+之后 N 行, 每行两个整数 X[i], Y[i], 表示点的坐标.
+
+对于每组输入, 输出一行, `YES` 或 `NO`
+
+1 <= N <= 1000
+
+点坐标的绝对值不会超过 `1 << 16`
+
+## 20 Adjacent Difference (1pts)
+
+水题, 求差分数组再排序输出即可, 输出格式略坑.
+
+第一行一个整数 T, 表示有 T 组数据.
+
+接下来每一组数据占两行:
+
+第一行一个整数 N, 表示数组大小.
+
+第二行 N 个整数, 表示这个数组.
+
+对于每组数据, 输出两行:
+
+第一行为 `Case %d:`, 从 1 开始
+
+第二行为 N 个整数
+
+注意: 相邻两组数据的输出之间要加一个空行, 最后一组数据后不应该有多余的空行.
+
+N <= 1000
+
+## 64 What Is Left (1pts)
+
+水题, 数组元素去重.
+
+多组输入, 每组:
+
+第一行一个整数 N, 表示数组大小.
+
+第二行 N 个整数, 表示这个数组.
+
+对于每组数据, 输出一行, 至多 N 个整数: 为去重并排序 (非降) 后的数组.
+
+N <= 50000
+
+## 98 Dongfangxu&zap
+
+中文题目, 略.
