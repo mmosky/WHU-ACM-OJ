@@ -8,7 +8,15 @@
   - [16 Cherry Blossom (1pts)](#16-cherry-blossom-1pts)
   - [20 Adjacent Difference (1pts)](#20-adjacent-difference-1pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
-  - [98 Dongfangxu&zap](#98-dongfangxuzap)
+  - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
+  - [100 Forest (1pts)](#100-forest-1pts)
+  - [201 Circle (5pts)](#201-circle-5pts)
+  - [202 找不同 (3pts)](#202-找不同-3pts)
+  - [203 找相同 (3pts)](#203-找相同-3pts)
+  - [204 继续找相同 (5pts)](#204-继续找相同-5pts)
+  - [211 表达式的值 (3pts)](#211-表达式的值-3pts)
+  - [314 3n+1数链问题 (1pts)](#314-3n1数链问题-1pts)
+  - [478 Sudo...ku](#478-sudoku)
 
 # WHU-ACM-OJ 题意
 
@@ -198,6 +206,42 @@ N <= 1000
 
 N <= 50000
 
-## 98 Dongfangxu&zap
+## 98 Dongfangxu&zap (1pts)
 
-中文题目, 略.
+本身中文题面.
+
+## 100 Forest (1pts)
+
+本身中文题面.
+
+## 201 Circle (5pts)
+
+本身中文题面.
+
+## 202 找不同 (3pts)
+
+本身中文题面.
+
+## 203 找相同 (3pts)
+
+本身中文题面.
+
+## 204 继续找相同 (5pts)
+
+本身中文题面.
+
+## 211 表达式的值 (3pts)
+
+本身中文题面.
+
+## 314 3n+1数链问题 (1pts)
+
+本身中文题面.
+
+## 478 Sudo...ku
+
+解数独.
+
+一组输入. 9 x 9 的矩阵, 0 表示空格.
+
+输出 9 x 9 的矩阵即可.
