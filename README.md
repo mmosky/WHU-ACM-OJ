@@ -22,6 +22,10 @@
 
 ## 编写规范
 
+欢迎大家参与编辑, 或者**支持作者**:
+
+![收款码](https://github.com/MMMMMMoSky/ImageHost/raw/master/pay_collect.png)
+
 1. 保持题号升序, 在对应位置插入
 2. 题目名称使用 h2 标题 (两个 #), 格式为 `("## %d %s (%dpts)", 题号, 题名, 分数)`
 3. 记得更新目录 (Table of Contents), 目录格式参考[这里](https://github.com/ekalinin/github-markdown-toc.go#remote-files)或下文说明
@@ -245,3 +249,4 @@ N <= 50000
 一组输入. 9 x 9 的矩阵, 0 表示空格.
 
 输出 9 x 9 的矩阵即可.
+
