@@ -10,6 +10,7 @@
   - [62 Linear World (5pts)](#62-linear-world-5pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
   - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
+  - [99 flirly (5pts)](#99-flirly-5pts)
   - [100 Forest (1pts)](#100-forest-1pts)
   - [201 Circle (5pts)](#201-circle-5pts)
   - [202 找不同 (3pts)](#202-找不同-3pts)
@@ -213,8 +214,9 @@ N <= 1000
 
 第三行三个整数 C, P, D, 表示狗的位置, 速度和初始方向.
 
-保证 D 为 1 或 -1, 并且 *A < B, P > U, P > V* (斜体为推测, 原题面太迷了 `au
-and p>v, d=1 or d=-1`)
+保证 D 为 1 或 -1, 1 表示往左跑, -1 表示往右跑. 
+
+并且 *A < B, P > U, P > V* (斜体为推测, 原题面太迷了 `au and p>v, d=1 or d=-1`)
 
 所有数据不超过 `1 << 16`
 
@@ -237,6 +239,10 @@ N <= 50000
 ## 98 Dongfangxu&zap (1pts)
 
 本身中文题面.
+
+## 99 flirly (5pts)
+
+本身中文题面
 
 ## 100 Forest (1pts)
 
