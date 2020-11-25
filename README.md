@@ -9,6 +9,7 @@
   - [20 Adjacent Difference (1pts)](#20-adjacent-difference-1pts)
   - [62 Linear World (5pts)](#62-linear-world-5pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
+  - [80 Game (1pts)](#80-game-1pts)
   - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
   - [99 flirly (5pts)](#99-flirly-5pts)
   - [100 Forest (1pts)](#100-forest-1pts)
@@ -235,6 +236,24 @@ N <= 1000
 对于每组数据, 输出一行, 至多 N 个整数: 为去重并排序 (非降) 后的数组.
 
 N <= 50000
+
+## 80 Game (1pts)
+
+flymouse 和 snoopy 轮流选数, 每次从 `[1, 13]` 中任选一个. 当一个人选完后, 所有数到总和达到 N 时这个人获胜.
+
+两个人都采取最佳策略, 并且 flymouse 先手, 问谁必胜.
+
+多组输入, 第一行一个整数 T, 表示数据组数.
+
+接下来 T 行, 每行一个整数, 表示 N.
+
+对于每组输入, 输出 `flymouse wins the game!` 或 `snoopy wins the game!`
+
+例如 N = 9 时, flymouse 先手直接选 9 即可获胜.
+
+而 N = 14 时, 无论 flymouse 选多少, 接下来 snoopy 都可选数获胜.
+
+1 < N < 1,000,000,000
 
 ## 98 Dongfangxu&zap (1pts)
 
