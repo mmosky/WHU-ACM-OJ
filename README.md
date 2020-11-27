@@ -7,6 +7,7 @@
   - [10 Alternate Sum (3pts)](#10-alternate-sum-3pts)
   - [16 Cherry Blossom (1pts)](#16-cherry-blossom-1pts)
   - [20 Adjacent Difference (1pts)](#20-adjacent-difference-1pts)
+  - [24 Exploration (3pts)](#24-exploration-3pts)
   - [62 Linear World (5pts)](#62-linear-world-5pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
   - [80 Game (1pts)](#80-game-1pts)
@@ -199,6 +200,29 @@ S 内的数字的绝对值不超过 `1 << 16`
 注意: 相邻两组数据的输出之间要加一个空行, 最后一组数据后不应该有多余的空行.
 
 N <= 1000
+
+## 24 Exploration (3pts)
+
+给定一棵树, 可以从任意点出发. 问访问树上所有节点最少走多少路.
+
+多组输入, 第一行一个整数 T, 表示数据组数, 接下来每组:
+
+第一行一个整数 N, 表示节点个数 (2 <= N <= 50,000)
+
+接下来 N - 1 行, 每行三个整数 `u`, `v`, `l` 表示存在一条 `u` 到 `v` 的无向边, 长度为 `l`
+
+保证输入为一棵树.
+
+对于每组输入, 输出:
+
+```
+Case %d:
+%d
+```
+
+第一个 `%d` 表示编号, 从 1 开始, 第二个 `%d` 表示最短总路径和.
+
+两组输出之间需要用一个空行隔开.
 
 ## 62 Linear World (5pts)
 
