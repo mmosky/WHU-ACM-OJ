@@ -11,6 +11,7 @@
   - [62 Linear World (5pts)](#62-linear-world-5pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
   - [80 Game (1pts)](#80-game-1pts)
+  - [96 Race (3pts)](#96-race-3pts)
   - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
   - [99 flirly (5pts)](#99-flirly-5pts)
   - [100 Forest (1pts)](#100-forest-1pts)
@@ -279,6 +280,53 @@ flymouse 和 snoopy 轮流选数, 每次从 `[1, 13]` 中任选一个. 当一个
 而 N = 14 时, 无论 flymouse 选多少, 接下来 snoopy 都可选数获胜.
 
 1 < N < 1,000,000,000
+
+## 96 Race (3pts)
+
+一共有三个种族, 为 Man, Pig 和 Man&Pig
+
+Man 称呼 Man 和 Man&Pig 为 M, 而称呼 Pig 为 P
+
+Pig 称呼 Man 和 Man&Pig 为 P, 而称呼 Pig 为 M
+
+Man&Pig 称呼 Man 和 Pig 为 M, 而称呼 Man&Pig 为 P
+
+有多组输入, 每组:
+
+第一行一个整数 N, 表示有 N 个个体 (N <= 100)
+
+接下来 N 行每行是一个字符串, 且长度为 N
+
+即有一个 N * N 的字符矩阵, 其中第 i 行第 j 列表示个体 i 称呼个体 j 的方式.
+
+特殊地, 一个个体称呼自己为 S.
+
+问这 N 个个体中分别有多少个 Man, Pig 和 Man&Pig.
+
+如果局面是不可能的, 输出 `Impossible`
+
+如果有多种可能性, 输出全部, 并且按照三元组 `(M, P, &)` 的升序输出.
+
+格式为 `M=%d, P=%d, &=%d`
+
+样例输入:
+
+```
+5
+SMMMM
+MSMMM
+MMSMM
+MMMSM
+MMMMS
+```
+
+样例输出:
+
+```
+M=0, P=5, &=0
+M=4, P=0, &=1
+M=5, P=0, &=0
+```
 
 ## 98 Dongfangxu&zap (1pts)
 
