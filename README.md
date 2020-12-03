@@ -8,6 +8,7 @@
   - [16 Cherry Blossom (1pts)](#16-cherry-blossom-1pts)
   - [20 Adjacent Difference (1pts)](#20-adjacent-difference-1pts)
   - [24 Exploration (3pts)](#24-exploration-3pts)
+  - [38 Help (3pts)](#38-help-3pts)
   - [62 Linear World (5pts)](#62-linear-world-5pts)
   - [64 What Is Left (1pts)](#64-what-is-left-1pts)
   - [80 Game (1pts)](#80-game-1pts)
@@ -224,6 +225,32 @@ Case %d:
 第一个 `%d` 表示编号, 从 1 开始, 第二个 `%d` 表示最短总路径和.
 
 两组输出之间需要用一个空行隔开.
+
+## 38 Help (3pts)
+
+房间的地上有一些钩子, 你有一根绳子, 你可以把绳子剪成任意长度的.
+
+问能否使用绳子将所有的钩子都连接起来 —— 直接连接或间接连接都可以.
+
+多组输入, 每一组:
+
+第一行两个整数 N, L, 表示钩子的数量和绳子长度. (2 <= N <= 100, L <= 32767)
+
+之后 N 行, 每行两个非负整数, 表示钩子的坐标, 不超过 32767
+
+对于每组输入, 如果可以将所有钩子连接起来, 输出 `Success!` 反之输出 `Poor magicpig!`
+
+注意, 输入的结束不是 EOF, 而是 N = 0, 且该行只会有一个整数 N. 见样例输入:
+
+```
+2 1
+0 0
+1 1
+2 2
+0 0
+1 1
+0
+```
 
 ## 62 Linear World (5pts)
 
