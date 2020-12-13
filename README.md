@@ -16,6 +16,7 @@
   - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
   - [99 flirly (5pts)](#99-flirly-5pts)
   - [100 Forest (1pts)](#100-forest-1pts)
+  - [106 String's Puzzle (3pts)](#106-strings-puzzle-3pts)
   - [107 DNA (1pts)](#107-dna-1pts)
   - [201 Circle (5pts)](#201-circle-5pts)
   - [202 找不同 (3pts)](#202-找不同-3pts)
@@ -366,6 +367,27 @@ M=5, P=0, &=0
 ## 100 Forest (1pts)
 
 本身中文题面.
+
+## 106 String's Puzzle (3pts)
+
+计算字符串的排名，字符串:
+
+- 仅由大写字母构成
+- 字符不重复出现
+
+多组输入，每组:
+
+第一行一个正整数 N (N <= 26)
+
+第二行一个长度为 N 的字符串
+
+对于每组输入，输出一行，一个整数，表示长度为 N 的字符串有多少个比输入的字符串小。
+
+输入以 N = 0 结束，而不是 EOF
+
+样例 ABC, 这是最小的，所以输出 0
+
+样例 ABD, 长度为 3 的字符串中，只有 ABC 一个比它小，所以输出 1
 
 ## 107 DNA (1pts)
 
