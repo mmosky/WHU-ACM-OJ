@@ -16,6 +16,7 @@
   - [98 Dongfangxu&zap (1pts)](#98-dongfangxuzap-1pts)
   - [99 flirly (5pts)](#99-flirly-5pts)
   - [100 Forest (1pts)](#100-forest-1pts)
+  - [103 Littleken (1pts)](#103-littleken-1pts)]
   - [106 String's Puzzle (3pts)](#106-strings-puzzle-3pts)
   - [107 DNA (1pts)](#107-dna-1pts)
   - [201 Circle (5pts)](#201-circle-5pts)
@@ -365,6 +366,10 @@ M=5, P=0, &=0
 本身中文题面
 
 ## 100 Forest (1pts)
+
+本身中文题面.
+
+## 103 Littleken (1pts)
 
 本身中文题面.
 
