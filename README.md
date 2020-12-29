@@ -1,5 +1,6 @@
 - [WHU-ACM-OJ 题意](#whu-acm-oj-题意)
   - [编写规范](#编写规范)
+  - [2 Genesis (1pts)](#2-genesis-1pts)
   - [5 Holding Animals (3pts)](#5-holding-animals-3pts)
   - [6 Language of Animals (3pts)](#6-language-of-animals-3pts)
   - [7 Feeding Animals I (1pts)](#7-feeding-animals-i-1pts)
@@ -57,6 +58,16 @@
 比如 `5 Holding Animals (3pts)` 对应的链接是 `5-holding-animals-3pts`
 
 注意缩进, h2 标题的目录需要两个空格.
+
+## 2 Genesis (1pts)
+
+统计圣经的每一章节有多少单词
+
+输入即题面描述中两段 `**********************` 之间的内容
+
+每一小节输出一行，格式为 `1:1 10` 即 `编号 单词数`
+
+注意，每一小节可能占多行
 
 ## 5 Holding Animals (3pts)
 
